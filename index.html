@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pão com Vini · Burgers, dogs prensados e almoço</title>
+  <meta name="description" content="Pão com Vini: burgers de costela, dogs prensados na chapa, smash, porções, omeletes e almoço. Reserve o espaço para aniversários, confraternizações e grupos." />
+  <meta name="theme-color" content="#0E0B09" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pão com Vini · Burger e hotdogs" />
+  <meta property="og:description" content="Burgers de costela, dogs prensados na chapa e almoço caprichado. Reserve o espaço para o seu evento." />
+  <meta property="og:image" content="assets/img/hero-burger.jpg" />
+  <link rel="icon" href="assets/img/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Pão com Vini",
+    "servesCuisine": ["Hambúrguer", "Cachorro-quente", "Brasileira"],
+    "telephone": "+55 41 99716-6194",
+    "image": "assets/img/hero-burger.jpg",
+    "sameAs": ["https://instagram.com/paocomvini_gastronomia"],
+    "acceptsReservations": true,
+    "openingHours": ["Mo-Sa 11:00-24:00", "Su 16:00-23:00"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ================= TOPO ================= -->
+  <header class="nav" id="topo">
+    <div class="nav__inner">
+      <a href="#topo" class="nav__brand" aria-label="Pão com Vini, início">
+        <img src="assets/img/logo.png" alt="" width="44" height="44" />
+        <span>Pão com Vini</span>
+      </a>
+      <nav class="nav__links" id="menu" aria-label="Seções">
+        <a href="#destaques">Destaques</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#almoco">Almoço</a>
+        <a href="#espaco">O espaço</a>
+        <a href="#contato">Contato</a>
+        <a href="#reservar" class="btn btn--ember btn--sm">Reservar espaço</a>
+      </nav>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero__rays" aria-hidden="true"></div>
+      <figure class="hero__photo">
+        <img src="assets/img/hero-burger.jpg" alt="Burger duplo de costela com bacon e cheddar derretido" fetchpriority="high" />
+      </figure>
+      <div class="hero__content">
+        <p class="status" data-status><span class="status__dot"></span><span data-status-text>Carregando horário…</span></p>
+        <h1 class="hero__title">
+          <span class="line">Feito na</span>
+          <span class="line line--ember">chapa.</span>
+          <span class="line line--outline">Do jeito</span>
+          <span class="line">do Vini.</span>
+        </h1>
+        <p class="hero__lead">Burger de costela 150 g, dog prensado até dourar, smash no precinho e almoço caprichado. Vem comer aqui, pedir em casa ou fazer a sua festa com a gente.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--ember" data-link="menu" href="#cardapio">Ver cardápio</a>
+          <a class="btn btn--ghost" href="#reservar">Reservar o espaço</a>
+        </div>
+        <ul class="hero__stickers" aria-label="Destaques da casa">
+          <li class="sticker sticker--a">Costela<br /><b>150 g</b></li>
+          <li class="sticker sticker--b">Prensado<br /><b>na chapa</b></li>
+        </ul>
+      </div>
+      <a href="#destaques" class="hero__scroll" aria-label="Rolar para os destaques"><span></span></a>
+    </section>
+
+    <!-- faixa -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Smash duplo</span><i>✦</i><span>Dog prensado</span><i>✦</i><span>Costela 150 g</span><i>✦</i><span>Cheddar &amp; bacon</span><i>✦</i><span>Porções pra dividir</span><i>✦</i><span>Omeletes gourmet</span><i>✦</i><span>Açaí</span><i>✦</i><span>Marmita no almoço</span><i>✦</i>
+        <span>Smash duplo</span><i>✦</i><span>Dog prensado</span><i>✦</i><span>Costela 150 g</span><i>✦</i><span>Cheddar &amp; bacon</span><i>✦</i><span>Porções pra dividir</span><i>✦</i><span>Omeletes gourmet</span><i>✦</i><span>Açaí</span><i>✦</i><span>Marmita no almoço</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ================= DESTAQUES ================= -->
+    <section class="section section--dark" id="destaques">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Os queridinhos da casa</p>
+          <h2 class="section__title">O que todo mundo <em>pede de novo</em></h2>
+          <p class="section__lead">Os mais curtidos pela clientela. Montados na hora, com pão quentinho e queijo escorrendo do jeito que tem que ser.</p>
+        </header>
+
+        <div class="dishes">
+          <article class="dish dish--xl reveal">
+            <figure class="dish__img"><img src="assets/img/dog-prensado.jpg" alt="Dog prensado recheado com frango, bacon e catupiry" loading="lazy" /></figure>
+            <div class="dish__body">
+              <span class="badge">1º mais curtido</span>
+              <h3>Dog prensado frango, bacon &amp; catupiry</h3>
+              <p>Duas vinas, frango, bacon crocante, catupiry, muçarela, milho e o molho da casa, prensado até dourar.</p>
+              <p class="price"><small>R$</small>29,00</p>
+            </div>
+          </article>
+
+          <article class="dish reveal">
+            <figure class="dish__img"><img src="assets/img/smash.jpg" alt="Smash duplo com cheddar derretido e picles" loading="lazy" /></figure>
+            <div class="dish__body">
+              <span class="badge badge--mustard">No precinho</span>
+              <h3>Smash duplo</h3>
+              <p>Dois smash de 80 g, bacon e cheddar.</p>
+              <p class="price"><small>R$</small>24,99</p>
+            </div>
+          </article>
+
+          <article class="dish reveal">
+            <figure class="dish__img"><img src="assets/img/costela-cavalo.jpg" alt="Burger de costela com quatro queijos derretidos" loading="lazy" /></figure>
+            <div class="dish__body">
+              <h3>Costela Mignon 4 queijos</h3>
+              <p>Burger de costela 150 g, mignon e mix de queijos.</p>
+              <p class="price"><small>R$</small>55,00</p>
+            </div>
+          </article>
+
+          <article class="dish reveal">
+            <figure class="dish__img"><img src="assets/img/costela-classico.jpg" alt="Burger duplo com bacon e cheddar" loading="lazy" /></figure>
+            <div class="dish__body">
+              <span class="badge">Matador</span>
+              <h3>Duplo burger bacon</h3>
+              <p>2 burgers de costela 150 g, cheddar, bacon e salada.</p>
+              <p class="price"><small>R$</small>44,90</p>
+            </div>
+          </article>
+
+          <article class="dish reveal">
+            <figure class="dish__img"><img src="assets/img/dog-tradicional.jpg" alt="Hot dog com molho e queijo" loading="lazy" /></figure>
+            <div class="dish__body">
+              <h3>Dog coração 4 queijos</h3>
+              <p>Duas vinas, coração, cream cheese, parmesão e provolone.</p>
+              <p class="price"><small>R$</small>41,00</p>
+            </div>
+          </article>
+
+          <article class="dish reveal">
+            <figure class="dish__img"><img src="assets/img/batata.jpg" alt="Batata frita crocante em cestinha" loading="lazy" /></figure>
+            <div class="dish__body">
+              <span class="badge badge--mustard">Pra dividir</span>
+              <h3>Batata cheddar &amp; bacon</h3>
+              <p>Batata crocante coberta de cheddar e bacon.</p>
+              <p class="price"><small>R$</small>30,50</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="center reveal">
+          <a class="btn btn--ember" data-link="menu" href="#cardapio">Ver o cardápio completo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HISTÓRIA / CHAPA ================= -->
+    <section class="story">
+      <div class="story__media reveal">
+        <img class="story__img story__img--main" src="assets/img/prensado-chapa.jpg" alt="Lanche prensado dourado na chapa com molhos" loading="lazy" />
+        <img class="story__img story__img--float" src="assets/img/burgers-coca.jpg" alt="Dois burgers com refrigerante gelado" loading="lazy" />
+        <span class="story__script">burger e hotdogs</span>
+      </div>
+      <div class="story__text reveal">
+        <p class="eyebrow">A casa</p>
+        <h2 class="section__title">Chapa quente, pão prensado e <em>muito recheio</em>.</h2>
+        <!-- TROCAR: contar a história real da casa (quando abriu, quem é o Vini) quando o cliente enviar. -->
+        <p>Aqui o dog vai prensado até dourar e o burger é de costela. A receita é simples: ingrediente de verdade, porção generosa e preço que dá pra voltar sempre.</p>
+        <ul class="facts">
+          <li><b>150 g</b><span>de costela no burger da casa</span></li>
+          <li><b>60+</b><span>opções entre burgers, dogs, porções e almoço</span></li>
+          <li><b>7 dias</b><span>por semana abertos pra você</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CARDÁPIO / CATEGORIAS ================= -->
+    <section class="section" id="cardapio">
+      <div class="container">
+        <header class="section__head section__head--row reveal">
+          <div>
+            <p class="eyebrow">Cardápio</p>
+            <h2 class="section__title">Escolha pela <em>fome</em></h2>
+          </div>
+          <a class="btn btn--dark" data-link="menu" href="#">Abrir cardápio com preços</a>
+        </header>
+      </div>
+      <div class="cats" role="list">
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/x-burguer.jpg" alt="" loading="lazy" /><span class="cat__name">Burgers de costela</span><span class="cat__from">a partir de R$ 23,90</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/smash.jpg" alt="" loading="lazy" /><span class="cat__name">Smash no precinho</span><span class="cat__from">a partir de R$ 23,99</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/prensado-chapa.jpg" alt="" loading="lazy" /><span class="cat__name">Dogs prensados</span><span class="cat__from">a partir de R$ 19,00</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/porcao-mista.jpg" alt="" loading="lazy" /><span class="cat__name">Porções</span><span class="cat__from">a partir de R$ 30,50</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/omelete.jpg" alt="" loading="lazy" /><span class="cat__name">Omeletes gourmet</span><span class="cat__from">a partir de R$ 37,00</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/chicken.jpg" alt="" loading="lazy" /><span class="cat__name">Combos casal</span><span class="cat__from">a partir de R$ 50,00</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/sobremesa.jpg" alt="" loading="lazy" /><span class="cat__name">Sobremesas &amp; açaí</span><span class="cat__from">a partir de R$ 7,00</span></a>
+        <a class="cat reveal" role="listitem" data-link="menu" href="#"><img src="assets/img/refri.jpg" alt="" loading="lazy" /><span class="cat__name">Bebidas</span><span class="cat__from">a partir de R$ 4,00</span></a>
+      </div>
+      <div class="container order-strip reveal">
+        <p><b>Bateu a fome em casa?</b> Peça pelo delivery e receba quentinho.</p>
+        <div class="order-strip__ctas">
+          <a class="btn btn--ember" data-link="delivery" href="#" target="_blank" rel="noopener">Pedir no 99Food</a>
+          <a class="btn btn--ghost-dark" data-link="whatsapp" href="#" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ALMOÇO ================= -->
+    <section class="lunch" id="almoco">
+      <div class="lunch__bg" aria-hidden="true"><img src="assets/img/almoco.jpg" alt="" loading="lazy" /></div>
+      <div class="container lunch__inner">
+        <div class="lunch__card reveal">
+          <p class="eyebrow eyebrow--dark">Almoço · 10h30 às 15h</p>
+          <h2 class="section__title section__title--dark">Marmita de <em>comida de verdade</em></h2>
+          <p>Arroz, feijão, farofa, legumes, massa do dia e fritura do dia. Pra comer aqui ou levar pro trabalho.</p>
+          <ul class="sizes">
+            <li><span>Marmita P</span><b>R$ 28,90</b></li>
+            <li><span>Marmita M</span><b>R$ 30,00</b></li>
+            <li><span>Marmita G</span><b>R$ 32,00</b></li>
+            <li><span>Strogonoff de carne (M)</span><b>R$ 29,00</b></li>
+            <li><span>Adicionais: tilápia, frango empanado, bife</span><b>a partir de R$ 10,00</b></li>
+          </ul>
+          <a class="btn btn--ember" data-link="whatsapp-lunch" href="#" target="_blank" rel="noopener">Encomendar marmita</a>
+        </div>
+        <figure class="lunch__side reveal"><img src="assets/img/salada.jpg" alt="Bowl de salada colorida" loading="lazy" /><figcaption>Opção leve: marmita só de salada, R$ 12,00</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ================= O ESPAÇO ================= -->
+    <section class="section section--dark" id="espaco">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">O espaço</p>
+          <h2 class="section__title">Sua festa, <em>nossa chapa</em></h2>
+          <p class="section__lead">Aniversário, confraternização da firma, o time depois do jogo ou aquele encontro que ninguém quer que acabe. A gente reserva o espaço e cuida da comida.</p>
+        </header>
+
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--tall reveal"><img src="assets/img/espaco-salao.jpg" alt="Salão com mesas e iluminação aconchegante" loading="lazy" /></figure>
+          <figure class="gallery__item reveal"><img src="assets/img/porcao-mista.jpg" alt="Porção mista de carnes com molhos para dividir" loading="lazy" /></figure>
+          <figure class="gallery__item reveal"><img src="assets/img/evento-baloes.jpg" alt="Balões coloridos de aniversário" loading="lazy" /></figure>
+          <figure class="gallery__item gallery__item--wide reveal"><img src="assets/img/espaco-mesas.jpg" alt="Ambiente amplo com várias mesas" loading="lazy" /></figure>
+        </div>
+        <!-- TROCAR: fotos de banco provisórias. Substituir pelas fotos reais do espaço e remover este aviso. -->
+        <p class="note">Imagens ilustrativas.</p>
+
+        <ul class="events">
+          <li class="event reveal"><span class="event__icon" aria-hidden="true">🎂</span><h3>Aniversários</h3><p>Mesa reservada, combos e porções pra galera. Pode trazer o bolo.</p></li>
+          <li class="event reveal"><span class="event__icon" aria-hidden="true">🥂</span><h3>Confraternizações</h3><p>Fim de ano da empresa ou do time, com cardápio combinado antes.</p></li>
+          <li class="event reveal"><span class="event__icon" aria-hidden="true">⚽</span><h3>Grupos e times</h3><p>Pós-jogo, turma da faculdade, encontro de amigos. Avisa que a gente organiza.</p></li>
+          <li class="event reveal"><span class="event__icon" aria-hidden="true">🔒</span><h3>Evento fechado</h3><p>Quer o espaço só pra vocês? Consulte datas e condições.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= RESERVA ================= -->
+    <section class="reserve" id="reservar">
+      <div class="container reserve__inner">
+        <div class="reserve__intro reveal">
+          <p class="eyebrow eyebrow--dark">Reservar o espaço</p>
+          <h2 class="section__title section__title--dark">Bora marcar?</h2>
+          <p>Preencha em 1 minuto. A mensagem vai pronta pro nosso WhatsApp e a equipe confirma disponibilidade e detalhes por lá.</p>
+          <ol class="steps">
+            <li><b>1</b> Você conta o que precisa</li>
+            <li><b>2</b> A gente confirma no WhatsApp</li>
+            <li><b>3</b> É só chegar e aproveitar</li>
+          </ol>
+          <p class="reserve__hours" data-hours-list></p>
+        </div>
+
+        <form class="form reveal" id="reserva-form" novalidate>
+          <div class="form__grid">
+            <label class="field field--full">
+              <span>Seu nome *</span>
+              <input name="nome" autocomplete="name" required maxlength="80" placeholder="Como podemos te chamar?" />
+            </label>
+            <label class="field">
+              <span>WhatsApp *</span>
+              <input name="telefone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="(41) 99999-9999" />
+            </label>
+            <label class="field">
+              <span>Tipo de evento *</span>
+              <select name="tipo" required>
+                <option value="">Escolha…</option>
+                <option>Aniversário</option>
+                <option>Confraternização de empresa</option>
+                <option>Encontro de amigos / grupo</option>
+                <option>Time / pós-jogo</option>
+                <option>Evento fechado</option>
+                <option>Outro</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Data *</span>
+              <input name="data" type="date" required />
+            </label>
+            <label class="field">
+              <span>Horário de chegada *</span>
+              <select name="hora" required disabled>
+                <option value="">Escolha a data primeiro</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Número de pessoas *</span>
+              <input name="pessoas" type="number" inputmode="numeric" min="2" max="300" required placeholder="Ex.: 15" />
+            </label>
+            <fieldset class="field field--full choice">
+              <legend>Como prefere? *</legend>
+              <label><input type="radio" name="formato" value="Mesas reservadas" required /> <span>Mesas reservadas</span></label>
+              <label><input type="radio" name="formato" value="Área reservada só pro grupo" /> <span>Área só pro grupo</span></label>
+              <label><input type="radio" name="formato" value="Espaço exclusivo (evento fechado)" /> <span>Espaço exclusivo</span></label>
+            </fieldset>
+            <label class="field field--full">
+              <span>Observações</span>
+              <textarea name="obs" rows="3" maxlength="500" placeholder="Vai ter bolo? Quer combos ou porções já separados? Alguma restrição alimentar?"></textarea>
+            </label>
+          </div>
+          <p class="form__error" role="alert" aria-live="assertive"></p>
+          <button class="btn btn--ember btn--block" type="submit">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>
+            Enviar pedido de reserva
+          </button>
+          <p class="form__fine">A reserva só vale depois da confirmação da equipe pelo WhatsApp.</p>
+
+          <div class="form__done" hidden>
+            <h3>Pedido pronto! 🙌</h3>
+            <p>Abrimos o WhatsApp com a sua mensagem. Se não abriu, toque no botão abaixo.</p>
+            <a class="btn btn--ember" data-done-link href="#" target="_blank" rel="noopener">Abrir WhatsApp</a>
+            <button type="button" class="link-btn" data-reset>Fazer outro pedido</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section class="section section--dark contact" id="contato">
+      <div class="container contact__grid">
+        <div class="reveal">
+          <p class="eyebrow">Visite a gente</p>
+          <h2 class="section__title">Horários</h2>
+          <ul class="hours" data-hours-table></ul>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">Fale com a gente</p>
+          <h2 class="section__title">Contato</h2>
+          <ul class="contact__list">
+            <li><a data-link="whatsapp" href="#" target="_blank" rel="noopener"><b>WhatsApp</b><span>(41) 99716-6194</span></a></li>
+            <li><a data-link="instagram" href="#" target="_blank" rel="noopener"><b>Instagram</b><span>@paocomvini_gastronomia</span></a></li>
+            <li><a data-link="delivery" href="#" target="_blank" rel="noopener"><b>Delivery</b><span>Peça no 99Food</span></a></li>
+            <li data-address hidden><a data-link="maps" href="#" target="_blank" rel="noopener"><b>Endereço</b><span data-address-text></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="assets/img/logo.png" alt="Pão com Vini" width="64" height="64" loading="lazy" />
+      <p>Pão com Vini · burger e hotdogs</p>
+      <p class="footer__small">© <span data-year></span> Pão com Vini. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-link="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>
+  </a>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
